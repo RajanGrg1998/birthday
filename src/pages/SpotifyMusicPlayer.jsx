@@ -83,7 +83,7 @@ const SpotifyMusicPlayer = ({ gift, onPlayTrigger }) => {
           {/* <Heart size={13} /> */}
           <span>
             More than words ever could, it captures everything I feel when I
-            think of you. ❤️🎶
+            think of you...❤️🎶
           </span>
         </div>
       </div>
