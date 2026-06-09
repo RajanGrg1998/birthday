@@ -1,5 +1,7 @@
 import { Key, Music } from "lucide-react";
 
+import amvVideo from "./assets/amv.mp4";
+
 export const GIFT_CONTENT = {
   1: {
     title: "Reasons I Love You",
@@ -65,7 +67,7 @@ export const GIFT_CONTENT = {
     artist: "John Michael Howell",
     coverUrl: "./public/lovelovelove.gif",
     // "https://images.unsplash.com/photo-1564045288780-5c11658fefa3?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    videoUrl: "./public/amv.mp4", // Replace with your actual video URL
+    videoUrl: amvVideo, // Replace with your actual video URL
   },
 
   4: {
