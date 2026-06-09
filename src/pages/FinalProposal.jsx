@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/purity */
 import { Heart, Sparkles } from "lucide-react";
 import { useState } from "react";
+import peachLove from "../assets/peach-goma-love-peach-cat.gif";
 
 // const FinalProposal = ({ onYes, noButtonPos, handleNoHover }) => {
 //   return (
@@ -115,11 +116,7 @@ const FinalProposal = ({ onYes }) => {
         {/* Floating Icon Header */}
         <div className="relative w-24 h-24 flex items-center justify-center mb-4 z-10">
           <div className="absolute inset-0 bg-rose-200 blur-2xl opacity-50 animate-pulse" />
-          <img
-            src="./public/peach-goma-love-peach-cat.gif"
-            alt="love gif"
-            className="bject-contain"
-          />
+          <img src={peachLove} alt="love gif" className="bject-contain" />
           <Sparkles className="absolute -top-2 -right-2 w-6 h-6 text-amber-400 animate-pulse" />
         </div>
 

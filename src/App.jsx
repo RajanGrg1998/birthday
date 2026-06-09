@@ -4,6 +4,8 @@ import { useState } from "react";
 import FinalProposal from "./pages/FinalProposal";
 import GiftHub from "./pages/GiftHub";
 
+import dance from "./assets/dance.gif";
+
 const InteractiveCake = ({ onNext }) => {
   const [isBlownOut, setIsBlownOut] = useState(false);
   const [showNext, setShowNext] = useState(false);
@@ -500,11 +502,7 @@ export default function App() {
               <div className="relative z-10">
                 <div className="absolute inset-0 bg-yellow-200 blur-3xl opacity-30 animate-pulse" />
                 <div className="text-8xl md:text-9xl animate-bounce mb-8 drop-shadow-xl relative z-10">
-                  <img
-                    src="./public/dance.gif"
-                    alt="love gif"
-                    className="bject-contain"
-                  />
+                  <img src={dance} alt="love gif" className="bject-contain" />
                 </div>
               </div>
 
@@ -530,7 +528,7 @@ export default function App() {
               </div>
 
               <div className="pt-6 opacity-60 text-sm uppercase tracking-[0.3em] text-slate-500 font-bold z-10">
-                Forever & Always Yours.
+                Forever & Always Yours
               </div>
             </div>
           )}

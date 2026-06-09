@@ -2,16 +2,15 @@ import { Key, Music } from "lucide-react";
 
 import amvVideo from "./assets/amv.mp4";
 
+import huggyGif from "./assets/huggy-cute.gif";
+import loveYouGif from "./assets/love-you.gif";
+import loveloveloveGif from "./assets/lovelovelove.gif";
+import squishCatGif from "./assets/squish-cat.gif";
+
 export const GIFT_CONTENT = {
   1: {
     title: "Reasons I Love You",
-    icon: (
-      <img
-        src="./public/huggy-cute.gif"
-        alt="love gif"
-        className="bject-contain"
-      />
-    ),
+    icon: <img src={huggyGif} alt="love gif" className="bject-contain" />,
     type: "reasons_grid",
     reasons: [
       "How you’re cute without even trying",
@@ -24,13 +23,7 @@ export const GIFT_CONTENT = {
   },
   2: {
     title: "Promises & Perks",
-    icon: (
-      <img
-        src="./public/love-you.gif"
-        alt="love gif"
-        className="bject-contain"
-      />
-    ),
+    icon: <img src={loveYouGif} alt="love gif" className="bject-contain" />,
     type: "promises_and_coupons",
     promises: [
       "To always listen to you",
@@ -65,20 +58,14 @@ export const GIFT_CONTENT = {
     type: "music_player",
     songTitle: "Love You For a Thousand Years",
     artist: "John Michael Howell",
-    coverUrl: "./public/lovelovelove.gif",
+    coverUrl: loveloveloveGif,
     // "https://images.unsplash.com/photo-1564045288780-5c11658fefa3?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     videoUrl: amvVideo, // Replace with your actual video URL
   },
 
   4: {
     title: "Future Gifts",
-    icon: (
-      <img
-        src="./public/squish-cat.gif"
-        alt="love gif"
-        className="bject-contain"
-      />
-    ),
+    icon: <img src={squishCatGif} alt="love gif" className="bject-contain" />,
     type: "dream_cards",
     intro: "The best gifts are all the memories we haven't even made yet...",
     dreams: [
