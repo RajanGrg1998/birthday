@@ -511,10 +511,12 @@ export default function App() {
                   I love you!
                 </h1>
                 <p className="text-3xl font-handwritten text-slate-700 leading-relaxed">
-                  Happy birthday, my beautiful girl. Let’s make this your best
-                  year yet.
+                  Happy birthday, my beautiful girl. All I want is a life with
+                  you, in every way, in every moment of it. Through every season
+                  of life, I will always choose you… and forever starts with
+                  you.
                 </p>
-                <div className="mt-8 flex justify-center space-x-4">
+                <div className="mt-6 flex justify-center space-x-4">
                   <Heart className="w-8 h-8 text-rose-400 fill-rose-400 animate-pulse" />
                   <Sparkles
                     className="w-8 h-8 text-amber-400 animate-pulse"
@@ -527,7 +529,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="pt-6 opacity-60 text-sm uppercase tracking-[0.3em] text-slate-500 font-bold z-10">
+              <div className="pb-6 opacity-60 text-sm uppercase tracking-[0.3em] text-slate-500 font-bold z-10">
                 Forever & Always Yours
               </div>
             </div>
