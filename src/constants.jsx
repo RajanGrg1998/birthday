@@ -91,7 +91,7 @@ export const GIFT_CONTENT = {
         float: "animate-[floatSlow2_5s_ease-in-out_infinite]",
       },
       {
-        text: "Watching Every Sunset and Sunrise Togetherr",
+        text: "Watching Every Sunset and Sunrise Together",
         icon: "🌅",
         rotation: "-rotate-2",
         delay: "1s",
